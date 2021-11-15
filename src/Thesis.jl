@@ -1,5 +1,6 @@
 module Thesis
 
-greet() = print("Hello World!")
+using Reexport
+@reexport using DataFrames, CSV, StatsPlots
 
 end # module

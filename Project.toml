@@ -3,6 +3,13 @@ uuid = "1bc83de5-6b79-4fcf-8078-edd6f510f975"
 authors = ["DarioSarra"]
 version = "0.1.0"
 
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Parsers = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
+
 [compat]
 julia = "1"
 
